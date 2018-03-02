@@ -6,5 +6,6 @@ def reverse_each_word(sentence)
     reverse = word.split
     reverse = reverse.reverse
     reverse << reverse.join
-    
+  end
+  reverse
 end
